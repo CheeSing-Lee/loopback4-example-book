@@ -33,7 +33,7 @@ Loopback 4 example using express server to expose customised APIs
 1. Install docker-openlap from https://github.com/osixia/docker-openldap
 2. Run: docker run -p 636:636 --name my-openldap-container --detach osixia/openldap
 3. Run: docker run -it -v d:/data:/data osixia/openldap /bin/bash
-Get the generated certs from /container/service/slapd/assets/certs
-4. Update the certs path in .env and encrypt it
-5. Set environment variable to disable certificate verfication
+4. Get all generated certs from /container/service/slapd/assets/certs
+5. Update the certs path in .env and encrypt it
+6. Set environment variable to disable certificate verfication
    * NODE_TLS_REJECT_UNAUTHORIZED=0
