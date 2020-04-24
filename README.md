@@ -22,7 +22,8 @@ Loopback 4 example using express server to expose customised APIs
    * PORT=3000 (default: 3000)
 6. To start, run: 'npm start'
 
-## Loopback Commands (optional)
+## Loopback Commands (optional): 
+To use the below commands, run 'npm install -g @loopback/cli'
 1. Setup database connectivity: lb4 datasource
 2. Discover models: lb4 discover
 3. Setup models' repository: lb4 repository
